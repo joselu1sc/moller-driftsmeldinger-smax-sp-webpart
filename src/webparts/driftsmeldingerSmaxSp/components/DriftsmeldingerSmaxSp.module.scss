@@ -1,0 +1,133 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.driftsmeldingerSmaxSp {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 12px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e1dfdd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.contentBox {
+  margin-top: 10px;
+  background-color: #f3f2f1;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.singleViewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.singleCard {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.header span {
+  background-color: #f3f2f1;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.service {
+  color: #0078d4;
+  background-color: #e6f2fb;
+}
+
+.status {
+  color: #ffffff;
+  background-color: #0078d4;
+}
+
+.importance {
+  background-color: #fde7e9;
+  color: #a80000;
+}
+
+.meta {
+  font-size: 13px;
+  color: #605e5c;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.textBlock {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contentBox {
+  border-left: 4px solid #0078d4;
+  padding-left: 12px;
+  margin-top: 6px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}

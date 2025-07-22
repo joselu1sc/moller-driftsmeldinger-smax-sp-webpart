@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "moller-driftsmeldinger-smax-sp-webpart-client-side-solution",
+    "id": "5d9d872e-3414-4e5c-9988-303c82f653d2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "moller-driftsmeldinger-smax-sp-webpart description"
+      },
+      "longDescription": {
+        "default": "moller-driftsmeldinger-smax-sp-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "moller-driftsmeldinger-smax-sp-webpart Feature",
+        "description": "The feature that activates elements of the moller-driftsmeldinger-smax-sp-webpart solution.",
+        "id": "9d2228b6-0adf-4649-99cc-e7e5c688e667",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/moller-driftsmeldinger-smax-sp-webpart.sppkg"
+  }
+}

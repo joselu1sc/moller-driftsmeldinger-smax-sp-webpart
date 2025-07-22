@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.17.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "moller-driftsmeldinger-smax-sp-webpart",
+    "libraryId": "5d9d872e-3414-4e5c-9988-303c82f653d2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "moller-driftsmeldinger-smax-sp-webpart",
+    "solutionShortDescription": "moller-driftsmeldinger-smax-sp-webpart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "driftsmeldinger-smax-sp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/driftsmeldingerSmaxSp/DriftsmeldingerSmaxSpWebPart.js",
+          "manifest": "./src/webparts/driftsmeldingerSmaxSp/DriftsmeldingerSmaxSpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DriftsmeldingerSmaxSpWebPartStrings": "lib/webparts/driftsmeldingerSmaxSp/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
