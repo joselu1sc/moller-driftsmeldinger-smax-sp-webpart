@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { useState } from 'react';
 import { useDriftsmeldinger } from '../hooks/useDriftsmeldinger';
 import { Spinner, DefaultButton, PrimaryButton } from '@fluentui/react';
 import styles from './DriftsmeldingerSmaxSp.module.scss';
